@@ -1,8 +1,6 @@
 #include <stdio.h>
  
 int main() {
- 
-    
     double notaA = 0.0;
     double notaB = 0.0;
     double media = 0.0;
