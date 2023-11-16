@@ -15,8 +15,10 @@ typedef struct stack {
 stack* start_stack();
 void push(int value, stack *s);
 int pop(stack *s);
+void print_stack(stack *s);
+void clear_stack(stack *s);
 
-//estrutura de fila
+//estrutura de fila 
 typedef struct queueNode {
     int value;
     struct queueNode *next;
@@ -27,10 +29,12 @@ typedef struct queue {
     queueNode *last;
 } queue;
 
-//funçoes de fila
+//funçoes de fila 
 queue* start_queue();
 void add_queue_node(int value, queue *q);
 int delete_queue_node(queue *q);
+void print_queue(queue *q);
+void clear_queue(queue *q);
 
 //estrutura de fila com prioridade
 typedef struct priorityQueueNode {
@@ -46,11 +50,66 @@ typedef struct priorityQueue{
 priorityQueue* start_priority_queue();
 void add_priority_queue_node(int value, priorityQueue *pq);
 int delete_priority_queue_node(priorityQueue *pq);
+void print_priority_queue(priorityQueue *pq);
+void clear_priority_queue(priorityQueue *pq);
 
 int main()
 {
+    int tests, command, value;
+    int isStack, isQueue, isPriorityQueue;
     stack *STACK = start_stack();
-    printf("Hello World");
+    queue *QUEUE = start_queue();
+    priorityQueue *PRIORITYQUEUE = start_priority_queue();
+    
+    while (scanf("%d", &tests) != EOF){
+        isStack = 1; isQueue = 1; isPriorityQueue = 1;
+        while(tests){
+            scanf("%d %d", &command, &value);
+            if (command == 1){
+                if (isStack){
+                    push(value, STACK);
+                }
+                if (isQueue){
+                    add_queue_node(value, QUEUE);
+                }
+                if (isPriorityQueue){
+                    add_priority_queue_node(value, PRIORITYQUEUE);
+                }
+            } else {
+                if (value != pop(STACK)){
+                    isStack = 0;
+                    clear_stack(STACK);
+                }
+                if (value != delete_queue_node(QUEUE)){
+                    isQueue = 0;
+                    clear_queue(QUEUE);
+                }
+                if (value != delete_priority_queue_node(PRIORITYQUEUE)){
+                    isPriorityQueue = 0;
+                    clear_priority_queue(PRIORITYQUEUE);
+                }
+            }
+            tests--;
+        }
+        if ((isStack + isQueue + isPriorityQueue) >= 1){
+            if (isStack + isQueue + isPriorityQueue >= 2){
+                printf("not sure\n");
+            } else {
+                if (isStack){
+                    printf("stack\n");
+                } else if (isQueue) {
+                    printf("queue\n");
+                } else {
+                    printf("priority queue\n");
+                }
+            }
+        } else {
+            printf("impossible\n");
+        }
+        clear_stack(STACK);
+        clear_queue(QUEUE);
+        clear_priority_queue(PRIORITYQUEUE);
+    }
     return 0;
 }
 
@@ -86,6 +145,28 @@ int pop(stack *s){
         aux -> next = NULL;
         free(aux);
         return value;
+    }
+}
+
+void print_stack(stack *s){
+    stackNode *aux = s -> top;
+    if (aux != NULL){
+        printf("Sua pilha: \n");
+        while (aux != NULL){
+            printf ("%d\n", aux -> value);
+            aux = aux -> next;
+        }
+        printf("\n");
+    } else {
+        printf("Sua pilha está vazia . . . \n");
+    }
+}
+
+void clear_stack(stack *s){
+    stack *aux = s;
+    if (aux -> top != NULL){
+        pop(aux);
+        clear_stack(aux);
     }
 }
 
@@ -128,6 +209,28 @@ int delete_queue_node(queue *q){
     }
 }
 
+void print_queue(queue *q){
+    queueNode *aux = q -> first;
+    if (aux != NULL){
+        printf("Sua fila: ");
+        while (aux != NULL){
+            printf ("%d ", aux -> value);
+            aux = aux -> next;
+        }
+        printf("\n\n");
+    } else {
+        printf("Sua fila está vazia . . . \n");
+    }
+}
+
+void clear_queue(queue *q){
+    queue *aux = q;
+    if (aux -> first != NULL){
+        delete_queue_node(aux);
+        clear_queue(aux);
+    }
+}
+
 //funcoes da fila com prioridade
 priorityQueue* start_priority_queue(){
     priorityQueue *aux = (priorityQueue*) malloc(sizeof(priorityQueue));
@@ -162,8 +265,8 @@ int delete_priority_queue_node(priorityQueue *pq){
         int value;
         if (max -> next == NULL){
             pq -> first = NULL;
-            value = max -> value;
-            free (max);
+            //value = max -> value;
+            //free (max);
         } else {
             while (aux != NULL){
                 if ((aux -> value) > (max -> value)) {
@@ -174,8 +277,8 @@ int delete_priority_queue_node(priorityQueue *pq){
             if (max == pq -> first){
                 pq -> first = max -> next;
                 max -> next = NULL;
-                value = max -> value;
-                free(max);
+                //value = max -> value;
+                //free(max);
             } else {
                 aux = pq -> first;
                 while ((aux -> next -> value) != (max -> value)){
@@ -183,12 +286,34 @@ int delete_priority_queue_node(priorityQueue *pq){
                 }
                 aux -> next = max -> next;
                 max -> next = NULL;
-                value = max -> value;
-                free(max);
+                //value = max -> value;
+                //free(max);
             }
         }
-        //value = max -> value;
-        //free(max);
+        value = max -> value;
+        free(max);
         return value;
+    }
+}
+
+void print_priority_queue(priorityQueue *pq){
+    priorityQueueNode *aux = pq -> first;
+    if (aux != NULL){
+        printf("Sua fila com prioridade: ");
+        while (aux != NULL){
+            printf ("%d ", aux -> value);
+            aux = aux -> next;
+        }
+        printf("\n\n");
+    } else {
+        printf("Sua fila com prioridade está vazia . . . \n");
+    }
+}
+
+void clear_priority_queue(priorityQueue *pq){
+    priorityQueue *aux = pq;
+    if (aux -> first != NULL){
+        delete_priority_queue_node(aux);
+        clear_priority_queue(aux);
     }
 }
