@@ -18,11 +18,11 @@ void push (int value, stack* s);
 int pop (stack* s);
 void clear_stack (stack* s);
 void print_stack (stack* s);
-void turn_top_into_base (stack* s);
 
 //fuções específicas para essa questão
 stackNode* last_node (stack* s);
 void fill_stack (int value, stack* s);
+void turn_top_into_base (stack* s);
 
 int main(){
     stack* STACK = start_stack();
