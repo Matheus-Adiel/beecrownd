@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+
 //estrutura de pilha
 typedef struct stackNode {
     int value;
