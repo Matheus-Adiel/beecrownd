@@ -1,2 +1,45 @@
-# Beecrownd
- Questões do beecrownd que resolvi ou que estou resolvendo para praticar lógica de programação.
+# Soluções de questões do beecrowd
+
+Beecrowd é uma plataforma que disponibiliza problemas que estimulam e desenvolvem o raciocínio lógico e o domínio de diversas linguagens de programação. [Site do Beecrowd](https://www.beecrowd.com.br/).
+Caso queira conhecer e explorar meu desenvolvimento nessa plataforma [acesse o meu perfil.](https://www.beecrowd.com.br/judge/pt/profile/785136) Recomendo fortemente, principalmente para aqueles que buscam desenvolver e fortificar sua lógica em programação, praticarem e resolverem as questões propostas no site.
+
+## Sobre esse repositório
+
+Esse repositório é destinado à resoluções de questões da plataforma [beecrowd](https://www.beecrowd.com.br/). O meu principal objetivo é **explicar a lógica que utilizei** para solucionar um problema. Assim como qualquer outro código, sempre haverá formas distintas de se resolver um problema proposto. Portanto não leve as soluções desse repositórios como únicas e, se possível, tente sempre testar diferentes maneiras de se resolver uma questão.
+
+> Estou iniciando no mundo da programação a pouco tempo. Portanto, não se surpreendam ao verem códigos não tão agradáveis e, claro, questões que poderiam ter abordagens mais simples e efetivas.
+> 
+
+Como alguns objetivos secundário tenho: propor mais de uma solução, resolver a mesma questão em diferentes linguagens, explicar algoritmos e explicar a sintaxe da linguagem. (São objetivos secundários, logo não são o principal intuito desse repositório)
+
+Ademais, o repositório tem três principais pastas. A **algorithms** terá os algoritmos que foram utilizadas durante as questões. A **code** terá todos os códigos das questões divididas pelas linguagens utilizadas. A **logic** terá todas as categorias e, consequentemente, todas as questões  com a lógica utilizada.
+
+## Como irá funcionar
+
+Os problemas da plataforma são divididas em 9 (nove) categorias. Sendo eles: 
+
+1. Iniciante
+2. AD-HOC
+3. String
+4. Estruturas e bibliotecas
+5. Matemática
+6. Paradigmas
+7. Grafos
+8. Geometria computacional
+9. SQL
+
+Haverá um tópico nessa página que terá as categorias com as questões que já respondi dessa categoria. Dentro da cada questão terá a lógica(s) utilizada para resolver a questão, o link para o algoritmo utilizado (caso algum algoritmo tenha sido utilizado) e o link para o código em cada linguagem que consegui resolver.
+
+## Questões
+
+Bem, finalmente aqui está o link para as categorias de cada questão. Procure em que categoria está a questão que você está em dúvida e explore-a.
+
+1. Iniciante
+2. AD-HOC
+3. String
+4. Estruturas e bibliotecas
+5. Matemática
+6. Paradigmas
+7. Grafos
+8. Geometria computacional
+9. SQL
