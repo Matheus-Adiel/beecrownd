@@ -48,42 +48,8 @@ Bem, finalmente aqui está o link para as categorias de cada questão. Procure e
 
 ## Questões
 
-<center>
-
-||||||
-| --- | --- | --- | --- | --- |
-| 1000… | 1100… | 1200… | 1300… | 1400… |
-| 1500… | 1600… | 1700… | 1800… | 1900… |
-| 2000… | 2100… | 2200… | 2300… | 2400… |
-| 2500… | 2600… | 2700… | 2800.. | 2900… |
-| 3000… | 3100… | 3200… | 3300… | 3400… |
-| 3500… |  |  |  |  |
-
-</center>
-
-<center>
-    <table>
-        <tbody>
-            <tr>
-                <th scope="row">Chris</th>
-                <td>HTML tables</td>
-                <td>22</td>
-            </tr>
-            <tr>
-                <th scope="row">Dennis</th>
-                <td>Web accessibility</td>
-                <td>45</td>
-            </tr>
-            <tr>
-                <th scope="row">Sarah</th>
-                <td>JavaScript frameworks</td>
-                <td>29</td>
-            </tr>
-            <tr>
-                <th scope="row">Karen</th>
-                <td>Web performance</td>
-                <td>36</td>
-            </tr>
-    </tbody>
-    </table>
-</center>
+|||||||||||
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1000… | 1100… | 1200… | 1300… | 1400… | 1500… | 1600… | 1700… | 1800… | 1900… |
+| 2000… | 2100… | 2200… | 2300… | 2400… | 2500… | 2600… | 2700… | 2800.. | 2900… |
+| 3000… | 3100… | 3200… | 3300… | 3400… | 3500… |  |  |  |  |
