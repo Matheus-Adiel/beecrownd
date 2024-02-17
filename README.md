@@ -34,7 +34,7 @@ Caso não deseje ver pelas categorias, então vá na parte onde tem a lista de q
 
 ## Questões por categorias
 
-Bem, finalmente aqui está o link para as categorias de cada questão. Procure em que categoria está a questão que você está em dúvida e explore-a.
+**Navegue por categoria:**
 
 1. Iniciante
 2. AD-HOC
@@ -47,6 +47,8 @@ Bem, finalmente aqui está o link para as categorias de cada questão. Procure e
 9. SQL
 
 ## Questões
+
+**Navegue por questões:**
 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
