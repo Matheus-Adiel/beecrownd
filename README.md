@@ -18,19 +18,21 @@ Ademais, o repositório tem três principais pastas. A **algorithms** terá os a
 
 Os problemas da plataforma são divididas em 9 (nove) categorias. Sendo eles: 
 
-1. Iniciante
-2. AD-HOC
-3. String
-4. Estruturas e bibliotecas
-5. Matemática
-6. Paradigmas
-7. Grafos
-8. Geometria computacional
-9. SQL
+1. **Iniciante**: Problemas básicos para quem está iniciando na programação...
+2. **AD**-HOC: Problemas de simulação, datas e ad-hoc no geral...
+3. **String**: Palindromos, frequência, ad-hoc, LCS, manipulação de strings...
+4. **Estruturas** e bibliotecas: Filas, pilhas, ordenação, mapas...
+5. **Matemática**: Sistemas numéricos, número primos, bigInteger...
+6. **Paradigmas**: Programação dinâmica, busca binária, gulosos, backtracking...
+7. **Grafos**: Flood fill, MST, SSSP, DAG, fluxo máximo, árvores...
+8. **Geometria** computacional: Pontos e linhas, polígonos...
+9. **SQL**: Linguagens de consulta - seleção, inserção, atualização, criação
 
 Haverá um tópico nessa página que terá as categorias com as questões que já respondi dessa categoria. Dentro da cada questão terá a lógica(s) utilizada para resolver a questão, o link para o algoritmo utilizado (caso algum algoritmo tenha sido utilizado) e o link para o código em cada linguagem que consegui resolver.
 
-## Questões
+Caso não deseje ver pelas categorias, então vá na parte onde tem a lista de questões que estarão enumeradas de forma crescente.
+
+## Questões por categorias
 
 Bem, finalmente aqui está o link para as categorias de cada questão. Procure em que categoria está a questão que você está em dúvida e explore-a.
 
@@ -43,3 +45,18 @@ Bem, finalmente aqui está o link para as categorias de cada questão. Procure e
 7. Grafos
 8. Geometria computacional
 9. SQL
+
+## Questões
+
+<center>
+
+||||||
+| --- | --- | --- | --- | --- |
+| 1000… | 1100… | 1200… | 1300… | 1400… |
+| 1500… | 1600… | 1700… | 1800… | 1900… |
+| 2000… | 2100… | 2200… | 2300… | 2400… |
+| 2500… | 2600… | 2700… | 2800.. | 2900… |
+| 3000… | 3100… | 3200… | 3300… | 3400… |
+| 3500… |  |  |  |  |
+
+</center>
