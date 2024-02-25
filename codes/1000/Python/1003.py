@@ -1,0 +1,7 @@
+A = int(input())
+B = int(input())
+
+SOMA = A + B
+
+print("SOMA = %i" %SOMA)
+#print(f"SOMA = {SOMA}")
