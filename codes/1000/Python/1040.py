@@ -20,7 +20,8 @@ else:
 print(msg)
 
 if msg == 'Aluno em exame.':
-    n5 = float(input('Nota do exame: '))
+    n5 = float(input())
+    print(f'Nota do exame: {n5}')
     
     media = (media + n5)/2
 
