@@ -5,12 +5,13 @@ Caso queira conhecer e explorar meu desenvolvimento nessa plataforma [acesse o m
 
 ## Sobre esse repositório
 
-Esse repositório é destinado à resoluções de questões da plataforma [beecrowd](https://www.beecrowd.com.br/). O meu principal objetivo é **explicar a lógica que utilizei** para solucionar um problema. Assim como qualquer outro código, sempre haverá formas distintas de se resolver um problema proposto. Portanto não leve as soluções desse repositórios como únicas e, se possível, tente sempre testar diferentes maneiras de se resolver uma questão.
+Esse repositório é destinado à resoluções de questões da
+plataforma [beecrowd](https://www.beecrowd.com.br/). O meu principal objetivo é **Resolver** as questões da plataforma. Assim como qualquer outro código, sempre haverá formas distintas de se resolver um problema proposto. Portanto não leve as soluções desse repositórios como únicas e, se possível, tente sempre testar diferentes maneiras de se resolver uma questão.
 
 > Estou iniciando no mundo da programação a pouco tempo. Portanto, não se surpreendam ao verem códigos não tão agradáveis e, claro, questões que poderiam ter abordagens mais simples e efetivas.
 > 
 
-Como alguns objetivos secundário tenho: propor mais de uma solução, resolver a mesma questão em diferentes linguagens, explicar algoritmos e explicar a sintaxe da linguagem. (São objetivos secundários, logo não são o principal intuito desse repositório)
+Como alguns objetivos secundário tenho: explicar a lógica que utilizei, propor mais de uma solução, resolver a mesma questão em diferentes linguagens, explicar algoritmos e explicar a sintaxe da linguagem. (São objetivos secundários, logo não são o principal intuito desse repositório)
 
 Ademais, o repositório tem três principais pastas. A **algorithms** terá os algoritmos que foram utilizadas durante as questões. A **code** terá todos os códigos das questões divididas pelas linguagens utilizadas. A **logic** terá todas as categorias e, consequentemente, todas as questões  com a lógica utilizada.
 
